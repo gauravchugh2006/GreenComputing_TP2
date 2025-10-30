@@ -1,6 +1,6 @@
-Step;Framework;Duration (s);Energy (Wh);CO2 (kg);Memory (MB)
-Average rating per author;PySpark;0.242;0.0004;0.0;2448.68
-Number of reviews per publisher;PySpark;0.079;0.000129;0.0;2471.46
-Top 10 most-reviewed categories;PySpark;0.119;0.000193;0.0;2466.02
-Average review length;PySpark;26.131;0.043446;1,00E-05;3022.61
-Most frequent keywords;PySpark;0.201;0.000332;0.0;3042.5
+Step,Framework,Duration (s),Energy (Wh),CO2 (kg),Memory (MB),Total rows analysed,Efficiency ratio
+Average rating per author,PySpark,22.996,0.095041,2.2e-05,12191.43,163258,7372362289.007957
+Number of reviews per publisher,PySpark,11.662,0.048081,1.1e-05,12635.97,34265,3058603587.324389
+Top 10 most-reviewed categories,PySpark,13.345,0.055166,1.3e-05,13042.41,10,777983.911613
+Average review length,PySpark,39.737,0.163877,3.8e-05,13467.46,2999829,78563777536.52673
+Most frequent keywords,PySpark,16.312,0.067394,1.6e-05,13972.66,0,0.0

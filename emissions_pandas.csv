@@ -1,6 +1,6 @@
 Step,Framework,Duration (s),Energy (Wh),CO2 (kg),Memory (MB),Total rows analysed,Efficiency ratio
-Average rating per author,Pandas,4.841,0.019246,4e-06,18441.23,153530,34237408055.30641
-Number of reviews per publisher,Pandas,0.266,0.001089,0.0,18384.49,16017,63101951713.4897
-Top 10 most-reviewed categories,Pandas,4.391,0.016244,4e-06,18407.67,10,2642034.585279
-Average review length,Pandas,17.771,0.06151,1.4e-05,18331.45,3000000,209324665088.40836
-Most frequent keywords,Pandas,233.875,2.167398,0.000505,10984.15,10,19801.829868
+Average rating per author,Pandas,8.025,0.041149,1e-05,17239.89,153530,16013126473.08822
+Number of reviews per publisher,Pandas,0.515,0.002125,0.0,16153.34,16017,32345999740.426025
+Top 10 most-reviewed categories,Pandas,7.131,0.028707,7e-06,16092.79,10,1495071.89659
+Average review length,Pandas,30.942,0.099816,2.3e-05,16566.36,3000000,128993330283.20215
+Most frequent keywords,Pandas,309.892,2.577343,0.000601,8243.85,10,16652.20608

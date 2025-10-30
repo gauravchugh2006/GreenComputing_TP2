@@ -1,25 +1,17 @@
 Step,Framework,Dataset,Optimization,Duration (s),Energy (Wh),CO2 (kg),Memory (MB),Total rows analysed,Efficiency ratio
-Load data,Pandas,100%,Baseline (full dataset),56.85,0.427014,9.9e-05,30904.5,212404,2134837505.088959
-Data cleaning,Pandas,100%,Baseline (full dataset),3.304,0.013201,3e-06,30142.46,212404,69058122843.44873
-Join datasets,Pandas,100%,Baseline (full dataset),5.158,0.026657,6e-06,28389.57,3000000,483013044037.9282
-Average rating per author,Pandas,100%,Baseline (full dataset),6.333,0.025797,6e-06,27913.21,153530,25543130416.36831
-Number of reviews per publisher,Pandas,100%,Baseline (full dataset),0.278,0.001142,0.0,27507.79,16017,60183947761.74283
-Top 10 most-reviewed categories,Pandas,100%,Baseline (full dataset),4.796,0.018249,4e-06,27187.68,10,2351802.38156
-Average review length,Pandas,100%,Baseline (full dataset),19.307,0.065616,1.5e-05,26588.38,3000000,196224274433.00763
-Most frequent keywords,Pandas,100%,Baseline (full dataset),289.88,2.187383,0.00051,13469.68,10,19620.918891
-Load data,Pandas,50%,Reduced dataset (50%),32.967,0.199846,4.7e-05,18499.86,106202,2280765110.72412
-Data cleaning,Pandas,50%,Reduced dataset (50%),0.743,0.003093,1e-06,17993.93,106202,147347090763.4087
-Join datasets,Pandas,50%,Reduced dataset (50%),3.192,0.023755,6e-06,14787.27,748903,135307708718.49048
-Average rating per author,Pandas,50%,Reduced dataset (50%),1.99,0.007829,2e-06,14663.24,69960,38351296787.790474
-Number of reviews per publisher,Pandas,50%,Reduced dataset (50%),0.09,0.000364,0.0,14784.68,9230,108835203138.82515
-Top 10 most-reviewed categories,Pandas,50%,Reduced dataset (50%),1.815,0.007575,2e-06,14744.14,10,5666171.930964
-Average review length,Pandas,50%,Reduced dataset (50%),5.155,0.016854,4e-06,15026.88,748903,190703711356.59732
-Most frequent keywords,Pandas,50%,Reduced dataset (50%),27.729,0.116397,2.7e-05,15543.57,10,368725.882148
-Load data,Pandas,10%,Reduced dataset (10%),3.586,0.014827,3e-06,15770.52,21240,6148165408.495146
-Data cleaning,Pandas,10%,Reduced dataset (10%),0.661,0.002742,1e-06,15883.45,21240,33244965204.69748
-Join datasets,Pandas,10%,Reduced dataset (10%),0.798,0.003304,1e-06,14422.58,30020,38996321290.48372
-Average rating per author,Pandas,10%,Reduced dataset (10%),0.121,0.000474,0.0,14404.48,8035,72806121384.77206
-Number of reviews per publisher,Pandas,10%,Reduced dataset (10%),0.013,3.6e-05,0.0,14404.04,2070,244509732029.814
-Top 10 most-reviewed categories,Pandas,10%,Reduced dataset (10%),0.119,0.00048,0.0,14391.0,10,89429886.219842
-Average review length,Pandas,10%,Reduced dataset (10%),0.185,0.00075,0.0,14392.43,30020,171738743298.17343
-Most frequent keywords,Pandas,10%,Reduced dataset (10%),0.879,0.003676,1e-06,14343.12,10,11676119.137736
+Load data,Pandas,100%,Baseline (full dataset),30.427,0.130383,3e-05,31441.1,212404,6991754855.684094
+Data cleaning,Pandas,100%,Baseline (full dataset),2.656,0.009495,2e-06,30931.54,212404,96010738179.22871
+Join datasets,Pandas,100%,Baseline (full dataset),1.905,0.007827,2e-06,31230.34,3000000,1645020452765.7612
+Average rating per author,Pandas,100%,Baseline (full dataset),7.303,0.02869,7e-06,28890.8,153530,22967311619.776794
+Number of reviews per publisher,Pandas,100%,Baseline (full dataset),0.306,0.001261,0.0,28417.72,16017,54531004797.32739
+Top 10 most-reviewed categories,Pandas,100%,Baseline (full dataset),4.629,0.017481,4e-06,28715.49,10,2455182.772863
+Average review length,Pandas,100%,Baseline (full dataset),23.745,0.072612,1.7e-05,28164.58,3000000,177320007412.40817
+Most frequent keywords,Pandas,100%,Baseline (full dataset),101.577,1.271967,0.000296,18793.36,0,0.0
+Load data,Pandas,10%,Reduced dataset (10%),15.589,0.10742,2.5e-05,24823.83,21240,848619859.009028
+Data cleaning,Pandas,10%,Reduced dataset (10%),0.558,0.002303,1e-06,24941.66,21240,39587337579.00968
+Join datasets,Pandas,10%,Reduced dataset (10%),1.63,0.013514,3e-06,22246.13,30020,9533947432.110891
+Average rating per author,Pandas,10%,Reduced dataset (10%),0.126,0.000516,0.0,22033.16,8035,66811453190.665634
+Number of reviews per publisher,Pandas,10%,Reduced dataset (10%),0.022,7.2e-05,0.0,21969.0,2070,123359520417.84995
+Top 10 most-reviewed categories,Pandas,10%,Reduced dataset (10%),0.088,0.000345,0.0,22094.55,10,124483291.565852
+Average review length,Pandas,10%,Reduced dataset (10%),0.244,0.000996,0.0,24032.12,30020,129352452866.71884
+Most frequent keywords,Pandas,10%,Reduced dataset (10%),1.003,0.004169,1e-06,24064.66,10,10293991.310394

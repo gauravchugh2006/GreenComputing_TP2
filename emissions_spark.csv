@@ -1,6 +1,17 @@
-Step,Framework,Duration (s),Energy (Wh),CO2 (kg),Memory (MB),Total rows analysed,Efficiency ratio
-Average rating per author,PySpark,23.056,0.095258,2.2e-05,10578.41,163258,7355618154.696057
-Number of reviews per publisher,PySpark,12.826,0.052876,1.2e-05,10663.14,34265,2781211404.677652
-Top 10 most-reviewed categories,PySpark,14.064,0.058136,1.4e-05,10695.56,10,738247.574538
-Average review length,PySpark,36.779,0.151884,3.5e-05,10943.66,2999829,84767452586.87975
-Most frequent keywords,PySpark,22.652,0.093546,2.2e-05,11260.77,0,0.0
+Step,Framework,Dataset,Optimization,Duration (s),Energy (Wh),CO2 (kg),Memory (MB),Total rows analysed,Efficiency ratio
+Load data,PySpark,100%,Baseline (full dataset),11.718,0.048591,1.1e-05,23287.43,212404,18760873414.53412
+Data cleaning,PySpark,100%,Baseline (full dataset),1.65,0.006815,2e-06,22971.59,212404,133755325438.60223
+Join datasets,PySpark,100%,Baseline (full dataset),15.805,0.065018,1.5e-05,25338.4,2999829,198019043532.15613
+Average rating per author,PySpark,100%,Baseline (full dataset),14.43,0.059294,1.4e-05,25534.21,163258,11816999165.031876
+Number of reviews per publisher,PySpark,100%,Baseline (full dataset),11.179,0.050311,1.2e-05,24998.23,34265,2923044475.003705
+Top 10 most-reviewed categories,PySpark,100%,Baseline (full dataset),12.059,0.04981,1.2e-05,23889.51,10,861649.330182
+Average review length,PySpark,100%,Baseline (full dataset),29.225,0.120674,2.8e-05,24340.32,2999829,106690358840.0745
+Most frequent keywords,PySpark,100%,Baseline (full dataset),30.206,0.124954,2.9e-05,25210.41,0,0.0
+Load data,PySpark,10%,Reduced dataset (10%),1.164,0.004778,1e-06,25679.91,21240,19077154040.04461
+Data cleaning,PySpark,10%,Reduced dataset (10%),1.308,0.005394,1e-06,26164.56,21240,16900160501.08163
+Join datasets,PySpark,10%,Reduced dataset (10%),4.229,0.017396,4e-06,25792.96,30021,7406676977.10942
+Average rating per author,PySpark,10%,Reduced dataset (10%),5.844,0.020896,5e-06,26343.98,7968,1636562845.517143
+Number of reviews per publisher,PySpark,10%,Reduced dataset (10%),3.83,0.01589,4e-06,26761.24,2763,746276406.005795
+Top 10 most-reviewed categories,PySpark,10%,Reduced dataset (10%),2.714,0.011219,3e-06,27070.11,10,3825435.027956
+Average review length,PySpark,10%,Reduced dataset (10%),2.139,0.008798,2e-06,27670.59,30021,14645214041.096508
+Most frequent keywords,PySpark,10%,Reduced dataset (10%),11.667,0.048286,1.1e-05,28654.89,0,0.0

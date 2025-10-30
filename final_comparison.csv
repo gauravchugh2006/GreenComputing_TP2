@@ -1,11 +1,5 @@
-﻿"Step","Framework","Carbon emission (kg)","Energy consumption (watt per hour)","Memory (MB)"
-"Average rating per author","Pandas","0","0","24682.47"
-"Number of reviews per publisher","Pandas","0","0","24557.02"
-"Top 10 most-reviewed categories","Pandas","0","0","24472.08"
-"Average review length","Pandas","0","0","24632.62"
-"Most frequent keywords","Pandas","0","0","24620.29"
-"Average rating per author","PySpark","0","0","25180.03"
-"Number of reviews per publisher","PySpark","0","0","25205.8"
-"Top 10 most-reviewed categories","PySpark","0","0","25252.82"
-"Average review length","PySpark","0","0","25186.04"
-"Most frequent keywords","PySpark","0","0","25073.68"
+Framework,Dataset,Optimization,CO2 (kg),Duration (s)
+Pandas,10%,Reduced dataset (10%),3e-05,19.26
+Pandas,100%,Baseline (full dataset),0.000358,172.548
+PySpark,10%,Reduced dataset (10%),3.1e-05,32.894999999999996
+PySpark,100%,Baseline (full dataset),0.000123,126.272
